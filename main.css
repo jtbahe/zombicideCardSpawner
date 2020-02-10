@@ -1,0 +1,65 @@
+body {
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #WIP {
+    margin: 10px auto;
+  }
+  
+  #resetButton {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  #threatLevel {
+    background-color: blue;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #blueLevel {
+    background-color: lightblue;
+  }
+  
+  #yellowLevel {
+    background-color: yellow;
+  }
+  
+  #orangeLevel {
+    background-color: orange;
+  }
+  
+  #redLevel {
+    background-color: red;
+  }
+  
+  #displayArea {
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    background-color: gray;
+  }
+  
+  #cardDisplay {
+  }
+  
+  #drawCard {
+    display: block;
+    background-color: lightblue;
+    margin: 10px auto;
+  }
+  
+  @media (max-width: 768px) {
+    #threatLevel {
+      width: 100%;
+    }
+    #displayArea {
+      width: 100%;
+    }
+  }

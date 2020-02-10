@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Zombicide Card Spawner</title>
+</head>
+<body>
+    <div id="WIP">Work In Progress</div>
+
+        <button id="resetButton" onclick='reset()'>Reset</button>
+
+        <div id="threatLevel">
+            <button id="blueLevel" onclick="changeColor('blue')">Blue</button>
+            <button id="yellowLevel" onclick="changeColor('yellow')">Yellow</button>
+            <button id="orangeLevel" onclick="changeColor('orange')">Orange</button>
+            <button id="redLevel" onclick="changeColor('red')">Red</button>
+            <h1>Threat level</h1>
+        </div>
+
+        <div id="displayArea">
+        <p id="cardDisplay"></p>
+        </div>
+
+        <button id="drawCard" onclick="draw()">Draw Card</button>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
